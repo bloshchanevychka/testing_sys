@@ -1,4 +1,5 @@
-package com.iasa.tests.ent.entity;
+package com.iasa.tests.entity;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
