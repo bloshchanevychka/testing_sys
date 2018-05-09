@@ -1,4 +1,7 @@
 package com.iasa.tests.IDAO;
 
-public interface QuestionLevelRepository {
+import com.iasa.tests.entity.QuestionLevel;
+import org.springframework.data.repository.CrudRepository;
+
+public interface QuestionLevelRepository extends CrudRepository <QuestionLevel, Long> {
 }

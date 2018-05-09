@@ -1,4 +1,7 @@
 package com.iasa.tests.IDAO;
 
-public interface TestRepository {
+import com.iasa.tests.entity.Test;
+import org.springframework.data.repository.CrudRepository;
+
+public interface TestRepository extends CrudRepository <Test, Long> {
 }

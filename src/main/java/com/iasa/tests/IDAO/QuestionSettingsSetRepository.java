@@ -1,4 +1,7 @@
 package com.iasa.tests.IDAO;
 
-public interface QuestionSettingsSetRepository {
+import com.iasa.tests.entity.QuestionSettingSet;
+import org.springframework.data.repository.CrudRepository;
+
+public interface QuestionSettingsSetRepository extends CrudRepository <QuestionSettingSet, Long> {
 }
