@@ -2,97 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c078ed34-2a00-4459-94c8-ad5dc56a2ebb" name="Default" comment="2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IAnswers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IAnswersStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IQuestionAnswerSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IQuestionLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IQuestionSettings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IQuestionSettingsSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IQuestionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IQuestions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IStatusTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/ISubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/ITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/ITestSets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/ITestSettings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/ITestSettingsSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/AnswersImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/AnswersStatusImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/QuestionAnswerSetImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/QuestionLevelImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/QuestionsImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/UsersImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testingSystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/IDAO/AnswersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/AnswersRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/IDAO/AnswersStatusRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/AnswersStatusRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/IDAO/QuestionAnswerSetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/QuestionAnswerSetRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/IDAO/QuestionLevelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/QuestionLevelRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/IDAO/QuestionSettingsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/QuestionSettingsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/IDAO/QuestionSettingsSetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/QuestionSettingsSetRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/IDAO/QuestionTypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/QuestionTypeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/IDAO/QuestionsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/QuestionsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/IDAO/ResultRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/ResultRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/IDAO/StatusTableRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/StatusTableRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/IDAO/SubjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/SubjectRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/IDAO/TestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/TestRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/IDAO/TestSetsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/TestSetsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/IDAO/TestSettingsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/TestSettingsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/IDAO/TestSettingsSetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/TestSettingsSetRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/IDAO/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/UsersRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/controller/command/LogginCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/controller/command/LoginCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/AnswerStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/AnswerStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/Answers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/Answers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/QuestionAnswerSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/QuestionAnswerSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/QuestionLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/QuestionLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/QuestionSettingSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/QuestionSettingSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/QuestionSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/QuestionSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/QuestionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/QuestionType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/Questions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/Questions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/StatusTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/StatusTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/TestSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/TestSets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/TestSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/TestSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/TestSettingsSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/TestSettingsSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/IDAO/AnswersRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/IDAO/AnswersStatusRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/IDAO/QuestionAnswerSetRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/IDAO/QuestionLevelRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/IDAO/QuestionSettingsRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/IDAO/QuestionSettingsSetRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/IDAO/QuestionTypeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/IDAO/QuestionsRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/IDAO/ResultRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/IDAO/StatusTableRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/IDAO/SubjectRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/IDAO/TestRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/IDAO/TestSetsRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/IDAO/TestSettingsRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/IDAO/TestSettingsSetRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/IDAO/UsersRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/entity/AnswerStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/entity/Answers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/entity/QuestionAnswerSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/entity/QuestionLevel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/entity/QuestionSettingSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/entity/QuestionSettings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/entity/QuestionType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/entity/Questions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/entity/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/entity/StatusTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/entity/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/entity/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/entity/TestSets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/entity/TestSettings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/entity/TestSettingsSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/iasa/tests/entity/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IAnswersStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IAnswersStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/AnswersStatusImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/AnswersStatusImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/AnswersStatusRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/AnswersStatusRepository.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -134,49 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UsersImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/UsersImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="35" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#findUsersByUFullNameAndUEmail#0;class#UsersImpl#0" />
-                <element signature="method#findUsersByUEmailAndUPassword#0;class#UsersImpl#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuestionsImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/QuestionsImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IUsers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IUsers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="42" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="12" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IAnswers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IAnswers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="136">
+              <caret line="8" column="46" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,16 +59,76 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnswersImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IAnswersStatus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IAnswersStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="60" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnswersImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/AnswersImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="136">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#670#671#0" expanded="true" />
                 <element signature="e#742#743#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Answers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/Answers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnswersStatusImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/AnswersStatusImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnswerStatus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/AnswerStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnswersStatusRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/AnswersStatusRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="60" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnswersRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/AnswersRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -216,8 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/AnswerStatus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/QuestionSettings.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/QuestionSettingSet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/Questions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/entity/Subject.java" />
@@ -258,15 +191,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IUsers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/UsersImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/ISubject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/AnswersStatusImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/QuestionAnswerSetImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/QuestionLevelImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/QuestionsRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IQuestions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/QuestionsImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/AnswersRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/AnswersImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IAnswers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/AnswersStatusRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IAnswersStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/AnswersImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/AnswersRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/AnswersStatusImpl.java" />
       </list>
     </option>
   </component>
@@ -351,26 +286,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testingSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testingSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testingSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -675,7 +591,7 @@
       <workItem from="1526248589018" duration="237000" />
       <workItem from="1526249137874" duration="152000" />
       <workItem from="1526249357621" duration="45000" />
-      <workItem from="1526303622287" duration="6541000" />
+      <workItem from="1526303622287" duration="7536000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1525716189380</created>
@@ -711,7 +627,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48055000" />
+    <option name="totallyTimeSpent" value="49050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1540" height="840" extended-state="0" />
@@ -781,13 +697,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/TestSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/TestSettingsSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -829,13 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/AnswerStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -937,13 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IAnswersStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IQuestionAnswerSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1042,13 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/AnswersStatusImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/Questions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1070,13 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="8" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/AnswersRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -1112,13 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/Answers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/QuestionsImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1129,24 +1003,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/AnswerStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IAnswers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="136">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/AnswersImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/AnswersRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/entity/Answers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/AnswersImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#670#671#0" expanded="true" />
             <element signature="e#742#743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/repositories/AnswersStatusRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/IAnswersStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iasa/tests/persistence/impl/AnswersStatusImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
