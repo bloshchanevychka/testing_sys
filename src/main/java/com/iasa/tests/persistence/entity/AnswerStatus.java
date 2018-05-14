@@ -12,7 +12,7 @@ import java.io.Serializable;
 public class AnswerStatus implements Serializable {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
-    @ManyToOne
+
     private Long answerStId;
     private boolean aStatus;
 

@@ -13,9 +13,9 @@ public class QuestionSettingSet implements Serializable {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private Long qSettingsSetId;
-    @ManyToMany
+
     private Long qId;
-    @OneToMany
+
     private Long sId;
 
    // protected QuestionSettingSet() {}

@@ -12,7 +12,7 @@ import java.io.Serializable;
 public class QuestionType implements Serializable {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
-    @OneToMany
+
     private Long typeId;
     private String type;
 

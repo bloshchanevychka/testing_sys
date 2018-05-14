@@ -13,9 +13,9 @@ public class TestSettingsSet implements Serializable {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private Long setId;
-    @ManyToOne
+
     private Long test;
-    @ManyToOne
+
     private Long settingSet;
 
     //protected TestSettingsSet () {}

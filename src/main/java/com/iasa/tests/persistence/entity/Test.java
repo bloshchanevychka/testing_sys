@@ -12,11 +12,10 @@ import java.io.Serializable;
 public class Test implements Serializable {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
-    @ManyToMany
-    @OneToMany
+
     private Long testId;
     private String testName;
-    @ManyToOne
+
     private Long testSubj;
     private String addInfo;
 

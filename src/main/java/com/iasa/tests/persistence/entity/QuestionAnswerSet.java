@@ -12,13 +12,13 @@ import java.io.Serializable;
 public class QuestionAnswerSet implements Serializable {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
-    @ManyToOne
+
     private Long setId;
-    @OneToMany
+
     private Long question;
-    @ManyToMany
+
     private Long answer;
-    @OneToMany
+
     private Long status;
 
    // protected QuestionAnswerSet () {}

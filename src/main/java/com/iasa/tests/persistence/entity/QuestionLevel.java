@@ -12,7 +12,7 @@ import java.io.Serializable;
 public class QuestionLevel implements Serializable {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
-    @OneToMany
+
     private Long questionLevelId;
     private String questionLevel;
 

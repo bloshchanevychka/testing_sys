@@ -12,7 +12,7 @@ import java.io.Serializable;
 public class StatusTable implements Serializable {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
-    @OneToMany
+
     private Long statusId;
     private Integer status;
 

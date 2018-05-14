@@ -12,14 +12,13 @@ import java.io.Serializable;
 public class Users implements Serializable {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
-    @ManyToMany
+
     private Long uId;
     private String uLogin;
     private String uFullName;
     private String uEmail;
     private String uPassword;
-    @ManyToOne
-    private Long uStatus;
+       private Long uStatus;
 
     //protected Users() {}
     public Users(String uLogin, String uFullName, String uEmail, String uPassword, Long uStatus) {

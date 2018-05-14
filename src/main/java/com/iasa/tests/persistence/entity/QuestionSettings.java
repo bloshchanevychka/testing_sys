@@ -12,7 +12,7 @@ import java.io.Serializable;
 public class QuestionSettings implements Serializable {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
-    @ManyToOne
+
     private Long setttingId;
     private Integer answAmount;
     private String help;

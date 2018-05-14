@@ -14,13 +14,13 @@ public class Result implements Serializable {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private Long resId;
-    @ManyToMany
+
     private Long testId;
-    @ManyToMany
+
     private Long userId;
-    @ManyToMany
+
     private Long questionId;
-    @ManyToMany
+
     private Long givenAnswer;
     private Date testDate;
     private Long testTime;

@@ -8,7 +8,7 @@ public interface IUsers {
 
     Optional<Users> findUsersById(Long id);
 
-    Users findUsersByUFullNameAndUEmail(String fullName, String email);
+    Optional<Users> findUsersByUFullNameAndUEmail(String fullName, String email);
     Users findUsersByUEmailAndUPassword(String email, String password);
     Users findUsersByULogin(String login);
     Users findUsersByEmail(String email);

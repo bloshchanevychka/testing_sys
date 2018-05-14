@@ -12,7 +12,7 @@ import java.io.Serializable;
 public class Subject implements Serializable {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
-    @OneToMany
+
     private Long subjId;
     private String subject;
 

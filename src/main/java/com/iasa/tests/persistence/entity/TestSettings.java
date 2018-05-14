@@ -12,7 +12,7 @@ import java.io.Serializable;
 public class TestSettings implements Serializable {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
-    @OneToMany
+
     private Long testSettingId;
     private Long timeSettings;
     private boolean securitySettings;

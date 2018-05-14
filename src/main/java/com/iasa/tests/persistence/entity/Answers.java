@@ -15,7 +15,6 @@ public class Answers implements Serializable {
 
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
-    @ManyToMany
     private Long aId;
     private String answer;
 
