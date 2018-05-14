@@ -23,4 +23,5 @@ public class QuestionsImpl implements IQuestions {
     @Override
     public Questions findQuestionsByQuestionText(String text) {return qRepository.findQuestionsByQuestionText(text);}
 
+
 }
